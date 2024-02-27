@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppins";
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 247, 247);
+}
+.container {
+  box-sizing: border-box;
+  padding: 5% 2%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  height: 90vh;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 5%;
+  border-radius: 10%;
+  overflow: hidden;
+  background-color: white;
+}
+
+.logo {
+  text-align: center;
+  color: rgb(79, 35, 255);
+}
+.userdata {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5%;
+}
+.btn {
+  text-align: center;
+}
+.btn > a {
+  border: 1px solid black;
+  padding: 10px 25px;
+  background-color: rgb(79, 35, 255);
+  color: white;
+}
+input {
+  border: 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 300px;
+  padding: 20px;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.close {
+  float: right;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhonePay</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">PhonePe</div>
+      <div class="userdata">
+        <label for="name">User Name:-</label>
+        <input type="text" id="name" /> <br />
+        <label for="Mobile">Mobile Number:-</label>
+        <input type="text" id="Mobile" /> <br />
+        <label for="Amount">Amount:-</label>
+        <input type="number" name="Amount" id="Amount" />
+      </div>
+      <div id="popup" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup()">&times;</span>
+          <p class="popuppara">This is the content of the popup.</p>
+        </div>
+      </div>
+      <a href="#" class="btn" onclick="payyy()">Pay</a>
+    </div>
+  </body>
+</html>
